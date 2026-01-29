@@ -1,0 +1,157 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", "Arial", system-ui;
+  background-color: #e2f9ff;
+
+  min-width: 600;
+
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+
+  padding-top: 0rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0;
+}
+
+h1 {
+  font-family: "Bungee", sans-serif;
+  font-size: 170px;
+  text-align: center;
+  margin: 0px;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  margin: 0px;
+}
+
+img {
+  display: block;
+  margin: 0px;
+  max-width: 10%;
+}
+
+.parent {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.inline {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.slogan {
+  font-size: 30px;
+  text-align: center;
+  margin: 0px;
+}
+
+.site-nav {
+    background-color: #333;
+    color: white;
+
+    padding-right: 0rem;
+    padding-left: 0rem;
+    margin: 1rem 0;
+
+}
+
+.site-nav ul {
+    background-color: transparent;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.site-nav li {
+    background-color: #1b1b1b;
+    flex: 1;
+    max-width: auto;
+    border-right: 1px solid white;
+}
+
+.site-nav li:first-child {
+    border-left: 1px solid white;
+}
+
+.site-nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.site-nav [aria-current] a {
+    background: #07b;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.15em;
+}
+
+.object-list {
+    background-color: rgb(238, 238, 238);
+    display: block;
+    padding: 0.5rem;
+    margin-bottom: 0rem;
+}
+
+.object-list ul {
+    background-color: grey;
+    list-style-type: none;
+    padding: 0;
+    
+    border: 2px solid rgb(53, 53, 53);
+}
+
+.object-list ul li {
+    padding: 10px;
+}
+
+.object-list ul li:nth-child(odd) {
+    background-color: rgb(83, 83, 83);
+}
+
+.object-list ul li:nth-child(even) {
+    background-color: rgb(53, 53, 53);
+}
+
+.object-list ul li {
+    color: white;
+}
+
+.object-list ul li a {
+    color: white;
+}
+
+.site-footer ul {
+    background-color: #333;
+    color: white;
+
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
+
+.site-footer ul li a {
+    color: white;
+}
