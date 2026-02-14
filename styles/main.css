@@ -4,7 +4,8 @@ html {
 
 body {
   font-family: "Inter", "Arial", system-ui;
-  background-color: #e2f9ff;
+  color: white;
+  background-color: #11323a;
 
   min-width: 600;
 
@@ -36,7 +37,16 @@ li {
 img {
   display: block;
   margin: 0px;
-  max-width: 10%;
+  max-width: 12%;
+}
+
+a {
+    color: blueviolet;
+}
+
+pre {
+    padding: 0px;
+    margin: 0px;
 }
 
 .parent {
@@ -45,12 +55,12 @@ img {
   text-align: center;
 }
 
+
 .inline {
   display: inline-block;
   padding: 0px;
   margin: 0px;
 }
-
 
 .slogan {
   font-size: 30px;
@@ -62,13 +72,36 @@ img {
     background-color: #333;
     color: white;
 
+    padding-top: 0rem;
     padding-right: 0rem;
     padding-left: 0rem;
-    margin: 1rem 0;
+    margin: 0rem 0;
+
+}
+
+.site-nav_alt {
+    background-color: transparent;
+    color: white;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    margin: 0rem 0;
 
 }
 
 .site-nav ul {
+    background-color: transparent;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.site-nav_alt ul {
     background-color: transparent;
     list-style-type: none;
     display: flex;
@@ -85,11 +118,31 @@ img {
     border-right: 1px solid white;
 }
 
+.site-nav_alt li {
+    background-color: #1b1b1b;
+    flex: 1;
+    max-width: auto;
+    border-right: 1px solid white;
+}
+
 .site-nav li:first-child {
     border-left: 1px solid white;
 }
 
+.site-nav_alt li:first-child {
+    border-left: 1px solid white;
+}
+
 .site-nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.site-nav_alt a {
     color: white;
     text-decoration: none;
     text-align: center;
@@ -105,8 +158,15 @@ img {
     text-underline-offset: 0.15em;
 }
 
+.site-nav_alt [aria-current] a {
+    background: #07b;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.15em;
+}
+
 .object-list {
-    background-color: rgb(238, 238, 238);
+    background-color: #16424c;
     display: block;
     padding: 0.5rem;
     margin-bottom: 0rem;
@@ -117,7 +177,7 @@ img {
     list-style-type: none;
     padding: 0;
     
-    border: 2px solid rgb(53, 53, 53);
+    border: 2px solid #0f2c32;
 }
 
 .object-list ul li {
@@ -125,11 +185,11 @@ img {
 }
 
 .object-list ul li:nth-child(odd) {
-    background-color: rgb(83, 83, 83);
+    background-color: #4a5a5a;
 }
 
 .object-list ul li:nth-child(even) {
-    background-color: rgb(53, 53, 53);
+    background-color: #314242;
 }
 
 .object-list ul li {
@@ -154,4 +214,8 @@ img {
 
 .site-footer ul li a {
     color: white;
+}
+
+.main {
+    padding-top: 1rem;
 }
